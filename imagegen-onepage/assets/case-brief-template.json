@@ -1,0 +1,53 @@
+{
+  "case_id": "replace-with-case-id",
+  "audience": "platform showcase",
+  "purpose": "prove one reusable growth method with evidence",
+  "canvas": {
+    "orientation": "landscape",
+    "aspect_ratio": "16:9",
+    "requested_native_dimensions": null
+  },
+  "brand": {
+    "name": "",
+    "palette": [],
+    "identity_assets": []
+  },
+  "product": {
+    "name": "",
+    "anchor_assets": [],
+    "must_preserve": []
+  },
+  "source_documents": [],
+  "claims": [],
+  "story": {
+    "result": "",
+    "business_problem": "",
+    "method_steps": [],
+    "evidence": [],
+    "validation": "",
+    "next_step": ""
+  },
+  "copy_manifest": [],
+  "input_images": [],
+  "reference_selection": {
+    "layout_family": "",
+    "style_anchor": null,
+    "layout_anchor": null
+  },
+  "constraints": {
+    "must": [
+      "final pixels come entirely from ImageGen",
+      "render only approved copy"
+    ],
+    "avoid": [
+      "garbled Chinese",
+      "fabricated metrics",
+      "reference contamination"
+    ]
+  },
+  "delivery": {
+    "final_pixel_source": "imagegen",
+    "mode": "built-in",
+    "editable_source_required": false
+  }
+}

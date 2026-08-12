@@ -1,0 +1,4 @@
+interface:
+  display_name: "ImageGen OnePage"
+  short_description: "用纯 ImageGen 生成营销案例 OnePage 成图"
+  default_prompt: "Use $imagegen-onepage to turn this case report, approved data, brand assets, and references into a polished OnePage generated entirely by ImageGen."
