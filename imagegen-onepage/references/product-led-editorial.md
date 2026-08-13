@@ -4,22 +4,21 @@ Use this layout when a case has a clear product anchor, two strong approved resu
 
 Do not use it when the product cannot be shown faithfully, the case needs more than three primary acts, the audience needs a complete operational SOP, or the available evidence is mostly long text.
 
-## Composition contract
+## Principles to translate, not a topology to copy
 
 - Use one complete 16:9 canvas with 3-4% safe margins.
-- Divide height into a 44-47% hero, a 38-42% analytical body, and an 11-15% conclusion region.
-- Build the hero as an asymmetric composition, approximately 44:26:24 plus gutters:
-  - left: partner identities, editorial headline, subtitle, two hero KPIs, and one thin secondary KPI rail;
-  - center: one faithful product group shown at advertising scale, unframed and fully visible;
-  - right: one verified result badge and optional real proof.
-- Let the product occupy about 21-27% of canvas width and 36-40% of canvas height. A restrained support surface may cross the hero/body boundary by 1-2% of canvas height to create depth.
-- Divide the body at about 28% and 60% of canvas width. Use unequal modules near 28:32:40, not equal thirds.
+- Preserve the reasoning principles: an advertising-scale product anchor, exactly two dominant results, an editorial evidence body, visibly different module grammars, and one conclusion.
+- Redesign the page geometry from the current thesis, product silhouette, copy length, and proof volume. The observed reference anatomy of a large upper hero and unequal three-act body is analysis evidence, not a reusable ratio.
+- Place the product left, center, or right only after testing which position creates the clearest current-case reading path. Do not inherit the anchor's left-KPI / center-product / right-badge pattern by default.
+- Let the product act as a true focal anchor when it is important to the thesis. Do not replace it with a wall of scene photos.
+- Size the three body regions by content load. Avoid equal thirds, but do not reuse a fixed unequal ratio.
 - Top-align all three module titles and body starts. End all body content on one shared baseline.
 - Give the three modules different evidence grammars:
   - act I: an unframed three-item strategy list with one consistent line-icon system;
   - act II: up to three horizontal evidence bands, each binding one content theme to real proof and one mechanism statement;
   - act III: a three- or four-node micro-timeline followed by larger result or replication proofs.
 - Use only one conclusion treatment: either one editorial summary sentence or one formula line. Do not use both by default.
+- Pass the feature-concentration, brand-swap, and thumbnail-silhouette tests in [visual-construction-plan.md](visual-construction-plan.md).
 
 ## Visual system
 
@@ -48,22 +47,20 @@ Do not use it when the product cannot be shown faithfully, the case needs more t
 
 - Bind each proof group to exactly one claim. A thumbnail may identify the evidence type; the adjacent locked copy must carry the conclusion.
 - Never create fake creators, backend screens, chats, dashboards, awards, or product labels.
-- This public skill intentionally bundles no reference-case images. Use this text specification directly or apply it to a user-provided reference under the role contract below.
+- This public skill intentionally bundles no reference-case images. Use this text specification directly or apply its atomic principles to a user-provided reference under the role contract below.
 - When using a user-provided case as the layout or style anchor, forbid all influence from its brand, palette-specific product cues, people, copy, metrics, dates, watermarks, and screenshots.
-- Preserve the topology while translating color by role. Do not inherit a reference's pink palette unless it is appropriate to the approved brand.
+- Preserve the information logic while redesigning topology and translating color by role. Do not inherit a reference's pink palette unless it is appropriate to the approved brand.
 - Replace category-specific props with meaningful equivalents or remove them. Do not substitute generic decorative spheres, bokeh, or floating objects.
-- Do not mix this topology with a five-stage execution topology in the same generation call.
+- Do not mix this information family with a five-stage execution family in the same generation call.
 
-## Prompt block
+## Prompt principle block
 
 ```text
-Layout blueprint: product-led editorial three-act.
+Layout logic: product-led editorial, rebuilt for this case.
 
-Use a complete 16:9 canvas with 3-4% safe margins. Divide the page vertically into a 44-47% product-led hero, a 38-42% three-act analytical body, and an 11-15% single conclusion region.
+Use the exact normalized regions and element specifications in the approved visual construction plan. Do not reuse the reference's region ratios, KPI locations, proof pattern, or conclusion position. Keep exactly two dominant hero results and one faithful product focal anchor, but place them according to this case's reading path.
 
-In the hero, use an asymmetric composition near 44:26:24 plus gutters: oversized editorial title and exactly two dominant KPIs on the left; one large faithful product group on a restrained category-appropriate support surface in the center; one verified result statement and optional real proof on the right. Place 3-5 secondary KPIs in one thin aligned rail.
-
-Below, create exactly three top-aligned modules with approximate widths 28:32:40, separated by thin low-contrast vertical rules. Act I contains three concise strategy actions with one line-icon system. Act II contains no more than three content themes, each bound to readable real proof and one short mechanism statement. Act III contains one three- or four-node timeline and up to three larger result or replication proofs. Give each act a distinct information form; do not make three matching card columns.
+Create no more than three primary analytical modules. Give each module a semantic information form chosen from the facts: strategy list, evidence band, comparison, proportional strip, matrix, or real timeline. Do not make three matching card columns and do not use generic icons as evidence.
 
 Use oversized Chinese editorial serif type only for the headline, Roman numerals, and hero KPI values; use crisp Chinese sans serif for all body copy. Keep the canvas mostly neutral white, derive pale surfaces and dark accents from the supplied brand, use one light direction, avoid decorative objects without category meaning, and render only one final conclusion treatment.
 ```
@@ -72,7 +69,7 @@ Use oversized Chinese editorial serif type only for the headline, Roman numerals
 
 - At fit-to-window, identify the product, thesis, and two hero KPIs immediately.
 - Confirm the product is unframed, faithful, fully visible, and large enough to act as a visual anchor.
-- Confirm the hero remains asymmetric and the body remains unequal at approximately 28:32:40.
+- Confirm the case-specific geometry is asymmetric, evidence-led, and materially different from the closest reference.
 - Confirm the three acts use visibly different information forms rather than repeated cards.
 - Confirm all proof groups remain understandable and support their adjacent claim.
 - Confirm only one final conclusion appears.

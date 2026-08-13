@@ -4,11 +4,13 @@ This public skill contains a text-only catalog of reusable OnePage structures. I
 
 ## Selection rules
 
-- Select one layout family and one compatible surface/style family.
-- Prefer no more than one user-provided style or layout case in a text-heavy generation call.
-- When the same case has both a detailed operations version and a condensed external version, select only one topology for a generation call. Use the detailed version for analysis and the condensed version as the layout anchor when appropriate.
+- Analyze two to four relevant user-provided cases when available, but extract no more than two atomic lessons from each.
+- Select one information family and one compatible surface/style family, then rebuild the page geometry from current evidence.
+- Keep macro-layout examples `analysis_only` by default. Prefer no more than one style case in a text-heavy generation call.
+- When the same case has a detailed operations version and a condensed external version, compare both during analysis but send neither as a literal topology. Select only atomic principles that fit the new evidence.
 - Omit style references when the brand identity and the approved visual system already define the direction.
-- Never copy a reference's brand, copy, data, PR number, date, watermark, creator identity, or product.
+- Never copy a reference's brand, copy, data, PR number, date, watermark, creator identity, product, page partition, KPI placement pattern, proof rhythm, or conclusion geometry as a set.
+- Record allowed atomic lessons, forbidden literal traits, and at least three macro transforms. Pass the originality tests in [visual-construction-plan.md](visual-construction-plan.md).
 - Use a vertical portfolio for module analysis only; never use the entire portfolio as a 16:9 layout anchor.
 
 ## Reusable layout families
@@ -35,7 +37,7 @@ Product-led header | three strategy pillars | proof strip | timeline | KPI foote
 
 ### Product-led editorial three-act
 
-Advertising-scale product hero | exactly two hero KPIs | unequal strategy-content-supply modules | one conclusion. Use when a faithful product anchor, two strong approved results, three compact acts, and readable real proof are available. Read [product-led-editorial.md](product-led-editorial.md) before compiling the prompt. Treat any detailed five-stage version of the same case as analysis-only and never mix both topologies in one generation call.
+Advertising-scale product focus | exactly two hero KPIs | distinct strategy/content/supply evidence grammars | one conclusion. Use when a faithful product anchor, two strong approved results, three compact acts, and readable real proof are available. Read [product-led-editorial.md](product-led-editorial.md), then design new region geometry. Treat any detailed five-stage version of the same case as analysis-only and never mix both information families in one generation call.
 
 ### Five-stage operations closure
 

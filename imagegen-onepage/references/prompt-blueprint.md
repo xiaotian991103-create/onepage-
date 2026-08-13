@@ -25,9 +25,9 @@ Image 3 = proof_visual. Use only as evidence for: <scene>. Do not read metrics f
 
 Use no more than five inputs. Default to three or fewer for text-heavy pages.
 
-## 4. Layout blueprint
+## 4. Case-specific construction blueprint
 
-Choose exactly one:
+Choose exactly one information family:
 
 - result-led three-column closure;
 - campaign timeline;
@@ -37,9 +37,11 @@ Choose exactly one:
 - product-led editorial three-act;
 - dark event spectrum.
 
-Describe top, body, proof, KPI, and footer regions. Require 3-4% safe margins and the complete canvas in frame.
+Compile the approved text wireframe and normalized region coordinates from [visual-construction-plan.md](visual-construction-plan.md). Name every visible element, its exact shape and treatment, content reference, and reading intent. Require 3-4% safe margins and the complete canvas in frame.
 
-For `product-led editorial three-act`, read [product-led-editorial.md](product-led-editorial.md) and reuse its composition contract and prompt block. Do not mix it with the five-stage operations topology.
+For `product-led editorial three-act`, read [product-led-editorial.md](product-led-editorial.md) and translate its principles into new case-specific geometry. Never reuse a fixed ratio or prompt block unchanged, and do not mix it with a five-stage operations topology.
+
+State the three or more macro transforms from the closest reference. Forbid literal carryover of its page partition, KPI placement, proof treatment, module grammar, and conclusion geometry.
 
 ## 5. Visual system
 
@@ -56,14 +58,14 @@ Use one coherent family. Do not mix incompatible references.
 
 ## 6. Copy manifest
 
-Provide copy in reading order and quote every visible string. The values below are synthetic placeholders:
+Provide copy in reading order and quote every visible string:
 
 ```text
 Text (verbatim; render only these quoted strings):
 P0 headline: "..."
 P0 subtitle: "..."
 P0 module 01: "..."
-P0 metric 01 value: "12W+"
+P0 metric 01 value: "24W+"
 P0 metric 01 label: "单条素材消耗"
 P1 evidence note 01: "..."
 P0 footer: "数据来源：..."
@@ -73,7 +75,7 @@ State that field names such as `P0 headline` are instructions and must not appea
 
 ## 7. Evidence placement
 
-Bind each proof visual to one claim or method step. Ask for fewer, larger proof frames. If proof is absent, request a clean blank well or omit the proof section; do not create fake backend UI or fake people as evidence.
+Bind each proof visual to one claim or method step. For each image specify why it was selected, what must remain visible, its exact frame shape and crop anchor, and an adjacent caption stating what is seen and what it supports. Ask for fewer, larger proof frames. If proof is absent, request a clean blank well or omit the proof section; do not create fake backend UI or fake people as evidence.
 
 ## 8. Hard constraints
 
@@ -84,6 +86,7 @@ Generate the entire page as one raster artwork through ImageGen.
 Render every quoted Chinese character, Latin acronym, digit, unit, plus sign, percent sign, and X exactly.
 Do not add any unquoted word, digit, logo, brand, date, PR number, watermark, footnote, QR code, or filler.
 Do not copy any text, brand, data, or watermark from style or layout references.
+Do not reproduce a reference's topology. Follow only the atomic lessons and the approved originality transforms.
 Keep the full 16:9 canvas visible with no cropped title, product, module, KPI, source line, or edge.
 Use large readable typography; no microtext.
 Preserve approved brand and product anchors faithfully.
@@ -92,7 +95,7 @@ Preserve approved brand and product anchors faithfully.
 ## 9. Avoid list
 
 ```text
-Avoid garbled Chinese, pseudo-characters, duplicated text, swapped CTR/CVR/ARPU, O/0 or l/1 confusion, fabricated metrics, crowded screenshots, random English, mixed visual families, equal columns when an unequal editorial layout is selected, repeated card systems, decorative props without category meaning, glossy 3D icons, excessive glow, generic dashboard UI, and PowerPoint-template stiffness.
+Avoid garbled Chinese, pseudo-characters, duplicated text, swapped CTR/CVR/ARPU, O/0 or l/1 confusion, fabricated metrics, crowded screenshots, random English, mixed visual families, copied reference topology, repeated card systems, unexplained images, decorative props without category meaning, glossy 3D icons, excessive glow, generic dashboard UI, circles-and-arrows AI flowcharts, and PowerPoint-template stiffness.
 ```
 
 ## Complete compact skeleton
@@ -102,7 +105,7 @@ Use case: productivity-visual
 Asset type: one complete 16:9 Chinese marketing case-study OnePage raster image
 Primary thesis: <one sentence>
 Input images: <numbered role contracts>
-Composition: <one layout blueprint, reading order, safe margins>
+Construction: <case-specific regions, element table, semantic shapes, reading order, safe margins, originality transforms>
 Style: <one visual family, brand-derived palette, surfaces, typography>
 Text (verbatim; render only quoted strings): <ordered copy manifest>
 Evidence: <proof-to-claim bindings>
@@ -115,9 +118,9 @@ Avoid: <error and style exclusions>
 For an edit, add a defect contract at the end:
 
 ```text
-Primary edit: change only <one exact defect>.
-Acceptance criterion: <observable pass condition>.
+Primary edit: correct <one region and one root cause; up to three linked symptoms>.
+Acceptance criterion: <one observable pass condition covering the linked symptoms>.
 Locked invariants: keep every other title, character, digit, metric, logo, product, proof image, layout boundary, color, background, crop, and canvas dimension unchanged.
 ```
 
-Repeat all hard constraints. An ImageGen edit can drift outside the target region, so re-run the full QA rubric afterward.
+Repeat all hard constraints. Permit only one edited child per clean root. An ImageGen edit can drift outside the target region, so run rapid global regression first and full QA on the final candidate.

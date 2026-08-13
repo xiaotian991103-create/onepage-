@@ -18,31 +18,150 @@
     "must_preserve": []
   },
   "source_documents": [],
-  "claims": [],
+  "claims": [
+    {
+      "fact_id": "F-01",
+      "label": "",
+      "internal_exact": "",
+      "public_render_value": "",
+      "unit": "",
+      "metric_type": "absolute",
+      "numerator": null,
+      "denominator": null,
+      "formula": null,
+      "threshold": null,
+      "comparison_base": null,
+      "time_window": "",
+      "scope": "",
+      "source": "",
+      "source_verification": {
+        "result": "BLOCKED",
+        "locator": "",
+        "rationale": ""
+      },
+      "approval": "PROVISIONAL",
+      "work_state": "completed_work",
+      "operational_definition": null,
+      "wording_lock": "",
+      "priority": "P0",
+      "proof_required": false
+    }
+  ],
   "story": {
-    "result": "",
+    "primary_thesis": {
+      "text": "",
+      "phrase_bindings": [
+        {
+          "phrase": "",
+          "fact_id": "F-01"
+        }
+      ]
+    },
     "business_problem": "",
-    "method_steps": [],
-    "evidence": [],
+    "completed_work": [
+      {
+        "work_id": "W-01",
+        "text": "",
+        "claim_ids": ["F-01"]
+      }
+    ],
+    "evidence_summary": "",
     "validation": "",
-    "next_step": ""
+    "next_steps": []
   },
-  "copy_manifest": [],
+  "copy_manifest": [
+    {
+      "copy_id": "T-01",
+      "text": "",
+      "priority": "P0",
+      "role": "headline",
+      "work_state": "completed_work",
+      "source_claim_ids": ["F-01"]
+    }
+  ],
   "input_images": [],
   "reference_selection": {
-    "layout_family": "",
+    "information_family": "",
     "style_anchor": null,
-    "layout_anchor": null
+    "layout_anchor": null,
+    "closest_reference": "",
+    "influence_ledger": [
+      {
+        "reference_id": "",
+        "learn": [],
+        "do_not_copy": [],
+        "controlled_features": [],
+        "generation_role": "analysis_only"
+      }
+    ],
+    "originality_transforms": [
+      {
+        "dimension": "narrative_order",
+        "anchor_trait": "",
+        "transformed_trait": "",
+        "factual_reason": ""
+      }
+    ],
+    "originality_tests": {
+      "feature_concentration": {
+        "result": "BLOCKED",
+        "rationale": ""
+      },
+      "brand_swap": {
+        "result": "BLOCKED",
+        "rationale": ""
+      },
+      "thumbnail_silhouette": {
+        "result": "BLOCKED",
+        "rationale": ""
+      }
+    },
+    "closest_reference_signature": {
+      "region_pattern": "",
+      "hero_focal_position": "",
+      "kpi_anchor": "",
+      "evidence_grammar": "",
+      "conclusion_geometry": ""
+    }
+  },
+  "visual_construction_plan": {
+    "text_wireframe": "",
+    "geometry_signature": {
+      "region_pattern": "",
+      "hero_focal_position": "",
+      "kpi_anchor": "",
+      "evidence_grammar": "",
+      "conclusion_geometry": ""
+    },
+    "canvas": {
+      "aspect": "16:9",
+      "safe_margin_pct": 4,
+      "reading_path": "",
+      "primary_focal_point": ""
+    },
+    "regions": [],
+    "elements": [],
+    "image_slots": []
+  },
+  "execution_budget": {
+    "tier": "standard",
+    "max_clean_roots": 2,
+    "max_edits_per_lineage": 1,
+    "max_total_calls": 3,
+    "quick_reject_before_full_qa": true
   },
   "constraints": {
     "must": [
       "final pixels come entirely from ImageGen",
-      "render only approved copy"
+      "render only approved copy",
+      "follow the approved visual construction plan"
     ],
     "avoid": [
       "garbled Chinese",
-      "fabricated metrics",
-      "reference contamination"
+      "fabricated metrics or proof",
+      "reference contamination",
+      "copied reference topology",
+      "generic AI diagram filler"
     ]
   },
   "delivery": {

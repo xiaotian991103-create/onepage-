@@ -1,0 +1,17 @@
+{
+  "case_id": "replace-with-case-id",
+  "case_brief_path": "/absolute/path/to/case-brief.json",
+  "started_at": "",
+  "ended_at": "",
+  "phase_durations_minutes": {
+    "intake": 0,
+    "preflight": 0,
+    "generation": 0,
+    "rapid_qa": 0,
+    "full_qa": 0,
+    "tool_wait": 0,
+    "user_wait": 0
+  },
+  "calls": [],
+  "delivery_call_id": null
+}
