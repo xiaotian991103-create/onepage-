@@ -50,6 +50,7 @@ Do not use a weighted total to override a failed hard gate.
 - Confirm 3-4% safe margins and no cropped edge, title, logo, product, module, KPI, conclusion, or source line.
 - Confirm no more than three primary modules plus one KPI area unless the approved brief says otherwise.
 - Confirm proof images are large enough to understand and bind visibly to the relevant claim.
+- Confirm the selected layout family retains its approved asymmetry, region proportions, and distinct information forms; fail generic equal-column or repeated-card drift when the blueprint requires otherwise.
 
 ### G. Brand, product, and proof
 
