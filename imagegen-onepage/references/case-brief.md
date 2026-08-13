@@ -37,7 +37,7 @@ Role definitions:
 
 - `fact_source`: extract facts only; normally exclude from generation.
 - `style_anchor`: visual system only.
-- `layout_anchor`: information topology only.
+- `layout_anchor`: hierarchy or information-grammar principle only; never literal topology.
 - `brand_identity`: preserve identity cues.
 - `product_anchor`: preserve packaging and product appearance.
 - `proof_visual`: preserve the specified evidence meaning.
@@ -57,6 +57,8 @@ Use `assets/case-brief-template.json` as the starting structure. Key fields:
 - `copy_manifest`
 - `input_images`
 - `reference_selection`
+- `visual_construction_plan`
+- `execution_budget`
 - `constraints`
 - `delivery`
 
@@ -67,6 +69,21 @@ python3 "<skill-directory>/scripts/validate_brief.py" /path/to/case-brief.json
 ```
 
 Treat validation warnings as items to review, not as permission to invent missing content.
+
+The validator computes `render_authorized`. Do not hand-write a PASS flag. Generation is permitted only when validation returns `render_authorized: true`.
+
+## Required preflight records
+
+- Every claim declares `work_state`, `metric_type`, scope, time window, comparison base, source, approval, and immutable public wording.
+- Every proof image declares the claim it supports, selection reason, must-show content, crop anchor, adjacent caption, and forbidden edits.
+- Every reference declares atomic lessons and forbidden literal carryover.
+- The visual construction plan declares normalized page regions and every visible element's exact primitive, shape, position, treatment, content reference, and evidence role.
+- The execution budget declares the risk tier, maximum roots, maximum calls, and one-edit-per-lineage rule.
+- Every proof image includes a visual fitness review based on direct inspection; a non-empty caption or selection reason alone is not evidence of fitness.
+
+Read [visual-construction-plan.md](visual-construction-plan.md) for the full preflight standard.
+
+At delivery, validate the actual call history with `scripts/validate_run_log.py`; a declared budget does not prove that the run stayed within it.
 
 ## Copy priority
 
