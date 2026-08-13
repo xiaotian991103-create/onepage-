@@ -23,6 +23,7 @@ Create an evidence-led marketing case OnePage as one cohesive raster image. Trea
 - For a new case or incomplete inputs, read [case-brief.md](references/case-brief.md).
 - Before exposing any metric or claim, read [data-policy.md](references/data-policy.md).
 - When choosing style or layout references, read [reference-library.md](references/reference-library.md).
+- When routing to a product-led editorial or three-act layout, read [product-led-editorial.md](references/product-led-editorial.md).
 - Before calling ImageGen, read [prompt-blueprint.md](references/prompt-blueprint.md).
 - Before editing or delivering a candidate, read [qa-rubric.md](references/qa-rubric.md).
 

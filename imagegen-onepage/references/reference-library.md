@@ -6,6 +6,7 @@ This public skill contains a text-only catalog of reusable OnePage structures. I
 
 - Select one layout family and one compatible surface/style family.
 - Prefer no more than one user-provided style or layout case in a text-heavy generation call.
+- When the same case has both a detailed operations version and a condensed external version, select only one topology for a generation call. Use the detailed version for analysis and the condensed version as the layout anchor when appropriate.
 - Omit style references when the brand identity and the approved visual system already define the direction.
 - Never copy a reference's brand, copy, data, PR number, date, watermark, creator identity, or product.
 - Use a vertical portfolio for module analysis only; never use the entire portfolio as a 16:9 layout anchor.
@@ -32,6 +33,14 @@ Method model | lifecycle or stage behavior | proof by stage | KPI dock. Use for 
 
 Product-led header | three strategy pillars | proof strip | timeline | KPI footer. Use for FMCG, beauty, and brand-node projects. Derive the palette only from approved brand cues.
 
+### Product-led editorial three-act
+
+Advertising-scale product hero | exactly two hero KPIs | unequal strategy-content-supply modules | one conclusion. Use when a faithful product anchor, two strong approved results, three compact acts, and readable real proof are available. Read [product-led-editorial.md](product-led-editorial.md) before compiling the prompt. Treat any detailed five-stage version of the same case as analysis-only and never mix both topologies in one generation call.
+
+### Five-stage operations closure
+
+Challenge | strategy | content | execution | validation. Use as an analysis framework for internal reviews, SOPs, and project handoffs when each stage has distinct evidence. For final ImageGen generation, compress it to three primary modules or obtain explicit approval for the denser structure.
+
 ### Dark event spectrum
 
 Use only when the brand or event genuinely supports dark high-contrast art direction. Reduce copy more aggressively than on light backgrounds and keep body text contrast high.
@@ -46,3 +55,5 @@ Borrow the structure and evidence binding, not the reference cases' text density
 - three to six proof visuals;
 - no more than two short lines per card;
 - no decorative microcopy.
+
+For the product-led editorial three-act family, tighten the target to 160-220 visible Chinese characters, exactly two hero KPIs, and three to six readable proof groups.

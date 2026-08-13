@@ -34,9 +34,12 @@ Choose exactly one:
 - formula matrix;
 - model validation split;
 - brand-color battlecard;
+- product-led editorial three-act;
 - dark event spectrum.
 
 Describe top, body, proof, KPI, and footer regions. Require 3-4% safe margins and the complete canvas in frame.
+
+For `product-led editorial three-act`, read [product-led-editorial.md](product-led-editorial.md) and reuse its composition contract and prompt block. Do not mix it with the five-stage operations topology.
 
 ## 5. Visual system
 
@@ -45,7 +48,7 @@ Specify:
 - background and brand-derived palette;
 - one primary color, one supporting color, one result accent;
 - title-bar and card surface treatment;
-- typography character: modern Chinese sans serif, large, crisp, high contrast;
+- typography character: modern Chinese sans serif by default, or one editorial serif plus one crisp sans serif when the selected layout family calls for it;
 - proof-image framing and callout treatment;
 - human-designed spacing and alignment.
 
@@ -89,7 +92,7 @@ Preserve approved brand and product anchors faithfully.
 ## 9. Avoid list
 
 ```text
-Avoid garbled Chinese, pseudo-characters, duplicated text, swapped CTR/CVR/ARPU, O/0 or l/1 confusion, fabricated metrics, crowded screenshots, random English, mixed visual families, glossy 3D icons, excessive glow, generic dashboard UI, and PowerPoint-template stiffness.
+Avoid garbled Chinese, pseudo-characters, duplicated text, swapped CTR/CVR/ARPU, O/0 or l/1 confusion, fabricated metrics, crowded screenshots, random English, mixed visual families, equal columns when an unequal editorial layout is selected, repeated card systems, decorative props without category meaning, glossy 3D icons, excessive glow, generic dashboard UI, and PowerPoint-template stiffness.
 ```
 
 ## Complete compact skeleton
